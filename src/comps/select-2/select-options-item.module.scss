@@ -1,0 +1,17 @@
+@import "./var.module.scss";
+
+.comp_container{
+    @extend %flex_start;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    width: 100%;
+    height: 28px;
+    
+    &:hover{
+        background: #eee;
+    }
+}
+
+.active{
+    color: $select_border_active;
+}

@@ -1,0 +1,21 @@
+
+// 尺寸
+$select_head_min_height: 38px;
+
+// 颜色
+$select_border_default: #ddd;
+$select_border_active: #409EFF;
+
+
+// 占位符选择器
+%flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex_start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

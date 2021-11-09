@@ -1,0 +1,51 @@
+@import "./var.module.scss";
+
+.container{
+    display: inline-block;
+    margin-left: 6px;
+    margin-top: 6px;
+    width: auto;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #efefef;
+
+    .content_container{
+        @extend %flex_center;
+        min-width: 23px;
+        height: 100%;
+    }
+
+
+    .label_container{
+        @extend %flex_center;
+        padding-left: 6px;
+        min-width: 20px;
+        height: 100%;
+        p{
+            position: relative;
+            top: -1px;
+            margin: 0px;
+            padding: 0px;
+            line-height: 0px;
+            font: {
+                size: 12px;
+                weight: 400;
+            }
+            color: #666;
+        }
+    }
+
+    .icon_container{
+        @extend %flex_center;
+        width: 24px;
+        height: 100%;
+        .icon_content_container{
+            @extend %flex_center;
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+            background: #666;
+        }
+    }
+}
