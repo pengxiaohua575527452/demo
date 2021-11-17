@@ -1,0 +1,33 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    width: auto;
+    height: 32px;
+    color: #666;
+    background: none;
+    transition: all 0.25s ease-out;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.default{
+    border: 1px solid #ccc;
+}
+
+.default:hover{
+    background: #eee;
+}
+
+.text{
+    border: none;
+}
+
+.text:hover{
+    background: #eee;
+}
+
+.active{
+    color: rgb(64, 158, 255);
+}

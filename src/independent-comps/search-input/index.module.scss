@@ -1,0 +1,17 @@
+.input{
+    height: 22px;
+    font: {
+        size: 12px;
+        weight: 400;
+    }
+    color: #aaa;
+    border: none;
+    border-radius: 4px;
+    
+
+    &:focus{
+        color: #666;
+        border: none;
+        outline: none;
+    }
+}

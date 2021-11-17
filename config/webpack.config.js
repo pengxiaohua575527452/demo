@@ -448,6 +448,9 @@ module.exports = function (webpackEnv) {
                     require.resolve('babel-preset-react-app/dependencies'),
                     { helpers: true },
                   ],
+                  [
+                    "@babel/preset-react",
+                  ],
                 ],
                 cacheDirectory: true,
                 // See #6846 for context on why cacheCompression is disabled

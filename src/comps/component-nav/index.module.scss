@@ -1,0 +1,43 @@
+@import "../../assets/scss/var.module.scss";
+
+ 
+.container{
+    width: 100%;
+    min-height: 100%;
+    font-size: 14px;
+
+    .title{
+        @extend %flex_start_center;
+        padding-left: $gap_size_level_19;
+        width: 100%;
+        line-height: $gap_size_level_19;
+        border-right: 3px solid $color_primary_level_1;
+        background: $color_primary_level_4;
+        color: $color_primary_level_1;
+    }
+
+    .menu_title{
+      
+        @extend %flex_start_center;
+        margin: 0px $gap_size_level_19;
+        width: calc(100% - #{$gap_size_level_19} * 2);
+        line-height: $gap_size_level_19;
+        color: $color_font_level_2;
+        border-bottom: 1px solid $color_border_level_3;
+
+    }
+
+    .menu_item{
+        @extend %flex_start_center;
+        padding-left: $gap_size_level_19;
+        width: 100%;
+        line-height: $gap_size_level_19;
+        color: $color_font_level_3;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+
+        &:hover{
+            color: $color_primary_level_2;
+        }
+    }
+}

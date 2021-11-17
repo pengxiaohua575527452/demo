@@ -1,0 +1,77 @@
+// 尺寸
+$head_container_height: 64px;
+$nav_container_width: 283px;
+
+$gap_size_level_19: 38px;
+$gap_size_level_8: 8px;
+$gap_size_level_2: 4px;
+$gap_size_level_1: 2px;
+
+// 布局
+%flex_center_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex_start_center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+%flex_end_center{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+
+
+
+// 颜色 1~4 从深到前
+$color_primary_level_1:rgb(64, 158, 255);
+$color_primary_level_2:rgb(102, 177, 255);
+$color_primary_level_3:rgb(160, 207, 255);
+$color_primary_level_4:rgb(217, 236, 255);
+
+$color_success_level_1:#67C23A;
+$color_success_level_3:rgb(225, 243, 216);
+$color_success_level_4:rgb(240, 249, 235);
+
+$color_warn_level_1:rgb(230, 162, 60);
+$color_warn_level_3:rgb(250, 236, 216);
+$color_warn_level_4:rgb(253, 246, 236);
+
+$color_danger_level_1:rgb(245, 108, 108);
+$color_danger_level_3:rgb(253, 226, 226);
+$color_danger_level_4:rgb(254, 240, 240);
+
+$color_info_level_1:rgb(144, 147, 153);
+$color_info_level_3:rgb(233, 233, 235);
+$color_info_level_4:rgb(244, 244, 245);
+
+$color_border_level_1:#ddd;
+$color_border_level_2:#E4E7ED;
+$color_border_level_3:#EBEEF5;
+$color_border_level_4:#F2F6FC;
+
+$color_font_level_1: #303133;
+$color_font_level_2: #606266;
+$color_font_level_3: #909399;
+$color_font_level_4: #C0C4CC;
+ 
+ 
+
+
+// 边框:
+$border_level_1: 0.5px solid $color_border_level_1;
+$border_level_2: 0.5px solid $color_border_level_2;
+$border_level_3: 0.5px solid $color_border_level_3;
+$border_level_4: 0.5px solid $color_border_level_4;
+
+
+
+ 

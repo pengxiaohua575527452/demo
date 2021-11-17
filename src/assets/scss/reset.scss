@@ -1,0 +1,19 @@
+html, 
+body, 
+div, 
+header, 
+section, 
+nav,
+main, 
+footer,
+ul,
+li,
+img {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}

@@ -1,0 +1,29 @@
+
+@import "../../assets/scss/var.module.scss";
+
+.container{
+    @extend %flex_start_center;
+    width: auto;
+    height: 100%;
+
+    .icon_container{
+        @extend %flex_start_center;
+        margin-right: $gap_size_level_8;
+        height: 100%;
+    }
+
+    .input_container{
+
+    }
+    .popup_button_group_contaienr{
+        margin-left: $gap_size_level_8;
+
+        .popup_button_group{
+            @extend %flex_start_center;
+
+            .popup_button_container{
+                margin-left: $gap_size_level_2;
+            }
+        }
+    }
+}

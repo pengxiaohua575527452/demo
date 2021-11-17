@@ -1,0 +1,22 @@
+
+$size:  20px;
+$border_color: #bbb;
+$background_color: #efefef;
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $size;
+    height: $size;
+    font: {
+        size: 10px;
+        weight: 500;
+    }
+    color: $border_color;
+    border-radius: 4px;
+    border: 0.5px solid $border_color;
+    background: $background_color;
+    box-shadow: 0px 1px 0px 1px $border_color;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+@import "../../assets/scss/var.module.scss";
+
+// $head_container_height: 64px;
+// $nav_container_width: 283px;
+
+.head_container{
+    width: 100%;
+    height: $head_container_height;
+    background: #fff;
+    box-shadow: rgb(240, 241, 242) 0px 2px 8px 0px;
+}
+
+.content_containe{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding-top: 38px;
+    width: 100%;
+    min-height: calc(100vh - #{$head_container_height});
+}
+
+.nav_container{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: $nav_container_width;
+    min-height: 100vh;
+}
+
+.nav_menu_container{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: $nav_container_width;
+    height: 100vh;
+    border-right: $border_level_1;
+    transition: all 0.25s ease-out;
+}
+
+.nav_menu_container_fixed{
+    position: fixed;
+    top: 0px;
+}
+
+.main_Footer_container{
+    width: calc(100% - #{$nav_container_width});
+    min-height: 100%;
+
+    .main_container{
+        width: 100%;
+        min-height: 100%;
+    }
+    
+    .footer_container{
+        width: 100%;
+        min-height: 300px;
+    }
+}
+
